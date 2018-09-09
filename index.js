@@ -14,8 +14,15 @@ const logDriversByHometown = function(drivers, hometown) {
   });
 };
 
+const comparator = function (a, b) {
+  return a.localeCompare(b);
+});
+
 const driversByRevenue = function(drivers) {
-  return drivers.sort(function (a, b) {
-    return a.localeCompare(b);
-  });
+  return drivers.sort(comparator);
 };
+
+const comparator = function (a, b) {
+  return a.localeCompare(b);
+});
+
