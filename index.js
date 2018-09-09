@@ -24,5 +24,4 @@ const driversByRevenue = function(drivers) {
 
 const comparator = function (a, b) {
   return a.localeCompare(b);
-});
-
+};
