@@ -18,10 +18,11 @@ const comparator = function (a, b) {
   return a.localeCompare(b);
 });
 
+const comparator = function (a, b) {
+  return a.localeCompare(b);
+};
+
 const driversByRevenue = function(drivers) {
   return drivers.sort(comparator);
 };
 
-const comparator = function (a, b) {
-  return a.localeCompare(b);
-};
